@@ -31,7 +31,7 @@ public class Down {
 
 	private static ArrayList<info> init(String url) throws Exception {
 		ArrayList<info> arrayList = new ArrayList<>();
-		Document d = Jsoup.connect(url).get();
+		Document d = Jsoup.connect(url.replace("view", "learn")).get();
 		Elements el = d.select(".video li");
 		for (Element eee : el) {
 			arrayList.add(new info(eee.select("a").text(), eee.select("a").attr("href"), d.select(".hd").text()));
