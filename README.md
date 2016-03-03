@@ -6,7 +6,7 @@
  * 仅此，分享给大家，正在学爪哇的大家
  * QQ群 [吾爱Java: 170936712](http://jq.qq.com/?_wv=1027&k=28XUDSI)
  * 个人博客[http://www.zhaoguilin.com](http://www.zhaoguilin.com)  
-'''bat
+'''JavaScript
 @echo off
 @echo %PATH%
 cd /d %dp~0
